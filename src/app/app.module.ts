@@ -6,16 +6,15 @@ import { AppComponent } from './app.component';
 
 import { TopComponent } from './top/top.component';
 import { PanelComponent } from './panel/panel.component';
-import { AttemptsComponent } from './attempts/attempts.component';
-import { ProgressComponent } from './progress/progress.component';
+
+import { FavoritesComponent } from './favorites/favorites.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopComponent,
     PanelComponent,
-    AttemptsComponent,
-    ProgressComponent
+    FavoritesComponent
   ],
   imports: [
     BrowserModule,

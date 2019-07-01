@@ -2,11 +2,20 @@
     <div class="jumbotron">
         <div class="row">
             <div class="col-sm-6">
-                <app-progress></app-progress>
+                <app-favorites [movie]="getFavoriteMovie(movies)"></app-favorites>
             </div>
             <div class="col-sm-6">
-                <app-attempts></app-attempts>
+                <app-favorites [movie]="getFavoriteSerie(movies)"></app-favorites>
             </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <ul class="list-group">
+                <li *ngFor="let m of movies" class="list-group-item">{{ m.Title }}</li>
+            </ul>
         </div>
     </div>
 </div>

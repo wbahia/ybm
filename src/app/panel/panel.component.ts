@@ -10,6 +10,18 @@ import { MOVIES } from './movies-mock'
 export class PanelComponent implements OnInit {
 
   public movies : Array<Movie> = MOVIES;
+
+  public getFavoriteMovie(movies:Array<Movie>) : Movie {
+    return movies.find(function(m) {
+      return (m.Favorite && m.Type == 'Movie');
+    });
+  };
+
+  public getFavoriteSerie(movies:Array<Movie>) : Movie {
+    return movies.find(function(m) {
+      return (m.Favorite && m.Type == 'Series');
+    });
+  };
   
   constructor() { console.log(this.movies)}
 
