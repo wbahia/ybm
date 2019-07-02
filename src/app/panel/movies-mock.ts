@@ -8,7 +8,7 @@ export const MOVIES : Array<Movie> = [
     new Movie('Star Wars - Episode VI - Return of the Jedi', 'Movie', false, ''),
     new Movie('The Matrix', 'Movie', false, ''),
     new Movie('Batman - Dark Knight', 'Movie', false, ''),
-    new Movie('Yes Man!', 'Movie', false, ''),
+    new Movie('Yes Man!', 'Movie', false, 'https://m.media-amazon.com/images/M/MV5BMzBmZTMzYmItNzhhMC00M2FkLWIxMGEtMjIxMjAwNmQ2ZmM4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg'),
     new Movie('The Avengers - EndGame', 'Movie', false, ''),
     new Movie('The Avengers - Infinity War', 'Movie', false, ''),
     new Movie('Iron Man', 'Movie', false, ''),
